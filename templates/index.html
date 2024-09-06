@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Podcast Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Podcast Assistant</h1>
+        <div id="timer">00:00</div>
+        <button id="startStopBtn"><span class="icon icon-mic"></span>Start Recording</button>
+        <div id="transcription">
+            <h2><span class="icon icon-mic"></span>Transcription</h2>
+            <p>Transcription will appear here...</p>
+        </div>
+        <div id="facts">
+            <h2><span class="icon icon-fact"></span>Fact Checks</h2>
+            <p>Fact checks will appear here...</p>
+        </div>
+        <div id="topics">
+            <h2><span class="icon icon-topic"></span>Current Topics</h2>
+            <p>Topics will appear here...</p>
+        </div>
+        <div id="suggestions">
+            <h2><span class="icon icon-suggestion"></span>Suggestions</h2>
+            <p>Suggestions will appear here...</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
