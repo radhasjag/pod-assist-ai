@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Podcast Assistant</title>
+    <title>The Y</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>AI Podcast Assistant</h1>
+        <h1>The Y</h1>
         <div id="timer">00:00</div>
         <button id="startStopBtn"><span class="icon icon-mic"></span>Start Recording</button>
         <div id="transcription">
             <h2><span class="icon icon-mic"></span>Transcription</h2>
             <p>Transcription will appear here...</p>
+        </div>
+        <div id="sentiment_emotion">
+            <h2><span class="icon icon-sentiment"></span>Sentiment and Emotion Analysis</h2>
+            <p>Sentiment and emotion analysis will appear here...</p>
+        </div>
+        <div id="conversation_dynamics">
+            <h2><span class="icon icon-dynamics"></span>Conversation Dynamics</h2>
+            <p>Conversation dynamics analysis will appear here...</p>
         </div>
         <div id="facts">
             <h2><span class="icon icon-fact"></span>Fact Checks</h2>
